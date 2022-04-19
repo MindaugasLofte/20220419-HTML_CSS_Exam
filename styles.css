@@ -1,0 +1,762 @@
+html {
+    margin: 5px;
+    background-color: #EEEEEE;
+}
+
+body {
+    background-color: white;
+    border-radius: 20px;
+    border: 1px solid #EEEEEE;
+    padding: 65px;
+    box-shadow: 5px 10px 8px #999999;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0px;
+    /* position: absolute; */
+    /* width: 367px;
+    height: 20px; */
+    /* right: 80px;
+top: 81px;*/
+    /* margin: 0 0 50px 0; */
+}
+
+#logo {
+    /* position: absolute; */
+    width: 198px;
+    height: 36px;
+    /* left: 80px;
+top: 70px; */
+}
+
+#signup {
+    /* Sign Up */
+    /* position: static; */
+    width: 75px;
+    height: 20px;
+    /* left: 292px;
+top: 0px; */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 100%;
+    /* identical to box height, or 20px */
+    /* Pink */
+    color: #FF3998;
+    /* Inside auto layout */
+    flex: none;
+    order: 3;
+    flex-grow: 0;
+    margin: 0px 28px;
+}
+
+.other {
+    /* position: static; */
+    width: 57px;
+    height: 20px;
+    /* left: 110px; */
+    /* top: 0px; */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 100%;
+    /* identical to box height, or 20px */
+    /* Dark 2 */
+    color: #555555;
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 0px 28px;
+}
+
+
+/* #bg { */
+
+
+/* position: absolute; */
+
+
+/* width: 328px; */
+
+
+/* height: 519px; */
+
+
+/* right: 261px;
+top: 288px; }*/
+
+
+/* #pinkell {
+/* position: absolute; */
+
+
+/* width: 311.52px;
+height: 311.52px;
+right: 240px;
+top: 401.15px; */
+
+
+/* Pink */
+
+
+/* background: #FF3998;
+filter: blur(206.736px);
+
+} */
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /* padding: 25px 0 85px 0; */
+}
+
+#ls {
+    /* Launching Soon */
+    /* position: absolute; */
+    width: 300px;
+    height: 19px;
+    /* left: 105x;
+    top: 306px; */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    /* line-height: 19px; */
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    /* Pink */
+    color: #FF3998;
+}
+
+#lssecond {
+    /* Launching Soon */
+    /* position: absolute; */
+    width: 300px;
+    height: 19px;
+    /* left: 40px;
+    top: 306px; */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    /* line-height: 19px; */
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    /* Pink */
+    color: #FF3998;
+}
+
+.placeholder-box {
+    /* position: relative; */
+    display: block;
+    width: 300px;
+    min-height: 150px;
+    margin-top: 50px;
+    padding: 30px;
+    border: 10px solid #888;
+    border-radius: 70px;
+    box-sizing: border-box;
+    box-shadow: 0 0 8px 0 rgba(203, 72, 72, 0.25);
+    background: linear-gradient(0deg, #FF8139, #FF8139), linear-gradient(0deg, #FF8139, #FF8139);
+}
+
+.placeholder-box p {
+    text-align: center;
+    margin: 0 0 15px;
+}
+
+.placeholder-box ul {
+    margin: 0;
+}
+
+
+/* Button */
+
+button {
+    display: block;
+    /* border: solid white; */
+    border-width: 0 10px;
+    border-radius: 0;
+    /* background: green; */
+    color: black;
+    font-size: 18px;
+    margin: -60px auto 15px;
+    padding: 15px;
+}
+
+.BTN-border-multicolor {
+    /* Border */
+    border: 4px solid transparent;
+    border-radius: 60px;
+    background: linear-gradient(to right, white, white), linear-gradient(to right, #FF3998, #FF8139, #FF8139, #39FFA0, #FF3939);
+    background-clip: padding-box, border-box;
+    background-origin: padding-box, border-box;
+    /* Other styles */
+    /* width: 100px;
+height: 40px; */
+    padding: 22px 50px 22px 50px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    /* kitas */
+    /* position: absolute; */
+    width: 76px;
+    height: 30px;
+    /* left: calc(50% - 76px/2);
+top: calc(50% - 30px/2 - 0.5px); */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 150%;
+    /* identical to box height, or 30px */
+    text-align: center;
+}
+
+#AnNFT {
+    /* An NFT like no other */
+    /* position: absolute; */
+    width: 620px;
+    /* height: 200px; */
+    /* left: 80px;
+top: 349px; */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 96px;
+    line-height: 96px;
+    /* Dark 1 */
+    color: #111111;
+    margin: 100 0 35 px 0;
+}
+
+#dont {
+    /* position: absolute; */
+    width: 537px;
+    height: 60px;
+    /* left: 80px;
+top: 613px; */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    /* or 30px */
+    /* Dark 2 */
+    color: #555555;
+}
+
+#launching_block {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    flex-wrap: wrap;
+}
+
+#LBleft {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    /* flex-grow: 1; */
+    justify-content: center;
+}
+
+#LBright {
+    padding: 65px 0 0 0;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    /* flex-grow: 1; */
+    justify-content: center;
+}
+
+#bg {
+    padding: 0 0 0 0;
+}
+
+#text-signup {
+    /* Sign up today and you’ll get a free NFT when we launch. */
+    /* position: absolute; */
+    width: 537px;
+    height: 30px;
+    /* left: 144px;
+top: 1215px; */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    /* identical to box height, or 30px */
+    color: #111111;
+}
+
+#free {
+    /* Free NFT for early birds */
+    /* position: absolute; */
+    width: 620px;
+    height: 48px;
+    /* left: 144px;
+top: 1143px; */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 48px;
+    display: flex;
+    align-items: flex-end;
+    color: #111111;
+    margin: 0
+}
+
+#freeNFTbox {
+    /* position: absolute; */
+    /* height: 36px; */
+    /* left: 10px;
+right: 41px;
+top: 1200px; */
+    border-radius: 15px;
+    height: 200px;
+    background-color: red;
+    /* For browsers that do not support gradients */
+    background-image: linear-gradient(to left bottom, #39FFA0, #FF3939, #FF8139, #FF3998);
+    padding: 35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+#companies {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 95px 0 95px 0;
+    flex-wrap: wrap;
+}
+
+#lesuper {
+    /* LE Super Rare Auction */
+    /* position: absolute; */
+    width: 620px;
+    height: 48px;
+    /* left: 80px;
+top: 1598px; */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 48px;
+    display: flex;
+    align-items: flex-end;
+    /* Dark 1 */
+    color: #111111;
+}
+
+#wehave {
+    /* We have released four limited edition NFTs early which can be bid on via OpenSea. */
+    /* position: absolute; */
+    width: 782px;
+    height: 30px;
+    /* left: 80px;
+top: 1670px; */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    /* identical to box height, or 30px */
+    /* Dark 2 */
+    color: #555555;
+    padding: 15px 0 0 0;
+}
+
+table {
+    /* position: absolute; */
+    /* left: 10%;
+right: 0%;
+top: 0%;
+bottom: 0%; */
+    /* Light 2 */
+    background: #EEEEEE;
+    border-radius: 0 0 16px 16px;
+    height: 80px;
+    width: 290px;
+    padding: 10px;
+    margin: -7px 0px 0px 0px;
+    border: none;
+    border: 0px solid white;
+}
+
+.firsttable {
+    text-align: left;
+    /* text-decoration: ; */
+}
+
+#ntf_block {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-direction: row;
+    justify-items: center;
+    padding: 40px 0 0 0;
+}
+
+#first_ntf {
+    width: 330px;
+    height: 390px;
+    margin: 0 0 0 0;
+}
+
+.Gloop_series {
+    /* Gloop Series */
+    /* position: absolute;
+width: 86px;
+left: 24px;
+top: 75.5%;
+bottom: 21.5%; */
+    color: #FF8139;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 100%;
+    /* identical to box height, or 12px */
+    text-transform: uppercase;
+}
+
+.Top_Bid {
+    /* Top bid */
+    /* position: absolute;
+width: 48px;
+right: 24px;
+top: 75.5%;
+bottom: 21.5%; */
+    color: #777777;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 100%;
+    /* identical to box height, or 12px */
+    text-align: right;
+    text-transform: uppercase;
+    /* Dark 3 */
+    color: #777777;
+}
+
+.Purple_Man {
+    /* Purple Man */
+    /* position: absolute;
+width: 109px;
+left: 24px;
+top: 81.5%;
+bottom: 13.5%; */
+    /* color: black; */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 100%;
+    /* identical to box height, or 20px */
+    /* Dark 1 */
+    color: #111111;
+}
+
+.eth {
+    /* 2.99 ETH */
+    /* position: absolute;
+width: 89px;
+right: 23px;
+top: 81.5%;
+bottom: 13.5%; */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 100%;
+    /* identical to box height, or 20px */
+    text-align: right;
+    /* Dark 1 */
+    color: #111111;
+}
+
+.code {
+    /* #12983 */
+    /* position: absolute;
+width: 65px;
+left: 24px;
+top: 89.5%;
+bottom: 6%; */
+    color: #777777;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 100%;
+    /* identical to box height, or 18px */
+    /* Dark 3 */
+    color: #777777;
+}
+
+.day_left {
+    /* 1 day left */
+    /* position: absolute;
+width: 78px;
+right: 24px;
+top: 89.5%;
+bottom: 6%; */
+    color: #777777;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 100%;
+    /* identical to box height, or 18px */
+    text-align: right;
+    /* Dark 3 */
+    color: #777777;
+}
+
+#svg {
+    /* Rectangle 8 */
+    /* position: absolute; */
+    width: 100%;
+    height: 2px;
+    /* left: 80px;
+top: 2276px; */
+    /* Light 2 */
+    background: #EEEEEE;
+    margin: 65px 0 35px 0;
+}
+
+.svgsecond {
+    /* Rectangle 8 */
+    /* position: absolute; */
+    width: 100%;
+    height: 2px;
+    /* left: 80px;
+top: 2276px; */
+    /* Light 2 */
+    background: #EEEEEE;
+    /* margin: 0px 0 35px 0; */
+}
+
+#AnNFT2 {
+    /* An NFT like no other */
+    /* position: absolute; */
+    width: 620px;
+    height: 38px;
+    /* left: 80px;
+top: 2441px; */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 56px;
+    line-height: 38px;
+    margin: 30px 0 30px 0;
+    /* identical to box height */
+    /* Dark 1 */
+    /* An NFT like no other */
+}
+
+#launching_block2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: left;
+}
+
+#LB2left {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-items: end;
+    align-items: left;
+}
+
+#LB2right {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-items: center;
+    width: 50%;
+    /* height: 500px; */
+    padding: 50px 0 0 0;
+}
+
+#greenNTF {
+    height: 500px;
+}
+
+.fab:hover,
+.hover:hover {
+    opacity: 0.7;
+}
+
+.fab {
+    background: #999999;
+    color: #999999;
+    background-color: white;
+    text-decoration: none
+}
+
+
+/* Exclusive NFT Collection */
+
+
+/* position: absolute; */
+
+#Exclusive {
+    width: 233px;
+    height: 20px;
+    /* left: 80px;
+top: 3016px; */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 100%;
+    /* identical to box height, or 20px */
+    /* Dark 2 */
+    color: #555555;
+}
+
+.whitebackground {
+    background-color: white;
+}
+
+#social {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100px;
+    flex-wrap: wrap;
+    padding: 0;
+    margin: 0;
+}
+
+
+/* © Copyright 2022 NFTlanding */
+
+.lastline {
+    /* position: absolute; */
+    /* width: 286px; */
+    height: 50px;
+    /* left: 80px;
+    top: 3209px; */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 100%;
+    /* identical to box height, or 20px */
+    /* Dark 4 */
+    color: #999999;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/* Launching August 2022 */
+
+
+/* position: absolute;
+width: 225px;
+height: 20px;
+left: 1135px;
+top: 3209px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 100%;
+/* identical to box height, or 20px */
+
+
+/* text-align: right; */
+
+
+/* Dark 4 */
+
+
+/* color: #999999; */
+
+.whitebackground {
+    background-color: white;
+    width: 700px;
+    /* height: ; */
+}
+
+#beforelastline,
+.lastable {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/* .lastblockleft,
+.lastblockright {
+width: 40vw;
+} */
+
+#lastline {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 0 70px 0;
+}
+
+.socialC {
+    width: 13px;
+    padding: 0 10px 0 0;
+}
+
+#secondTH {
+    /* About */
+    /* position: absolute; */
+    width: 190px;
+    height: 23px;
+    /* left: 740px;
+top: 2950px; */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    /* Dark 2 */
+    color: #555555;
+    text-align: left;
+}
+
+.secondTR {
+    /* OpenSea Maker Learn */
+    /* position: absolute; */
+    width: 100px;
+    height: 30px;
+    /* left: 905px;
+top: 2997px; */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 80%;
+    /* or 20px */
+    /* Dark 2 */
+    color: #555555;
+    margin: 0 100px 0 0;
+}
+
+.none {
+    text-decoration: none;
+    font-style: normal;
+    color: #555555;
+}
